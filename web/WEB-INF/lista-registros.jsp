@@ -8,6 +8,7 @@
     </head>
     <body>
         <h1>Listagem de Registros</h1>
+        <a href="novo.html">Novo...</a>
         <table>
             <tr>
                 <th>ID</th>
