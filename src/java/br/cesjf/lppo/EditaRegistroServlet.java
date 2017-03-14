@@ -17,8 +17,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "EditaRegistro", urlPatterns = {"/edita.html"})
-public class EditaRegistro extends HttpServlet {
+@WebServlet(name = "EditaRegistroServlet", urlPatterns = {"/edita.html"})
+public class EditaRegistroServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
